@@ -1,5 +1,42 @@
-.one{
-    background-color: aqua;
-width: 100px;
-height: 100px;
+.borders {
+  margin: 20px;
+  border-style: outset;
+  border-width: 5px;
+  border-color: aquamarine;
+  border-radius: 10px;
+  padding: 30px;
+}
+.borders  h1{
+    border-style: dotted;
+    color: aquamarine;
+    border-color: brown;
+}
+.borders p{
+    color: rgb(11, 2, 139);
+}
+
+
+
+
+
+
+.one {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  padding-top: 1px;
+  padding-left: 1px;
+  margin: 20px;
+}
+.two {
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 200px;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
+  color: darkred;
+  text-decoration: underline;
 }

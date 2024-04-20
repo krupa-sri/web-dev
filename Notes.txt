@@ -1,5 +1,38 @@
-Fount
+Font
 Borders
 Background
 Margin
 Float
+
+The use of classes/referrences in css files
+to referrence Id the syntax is #
+to referrence tag (body,p, img) the syntax is tag it self (body,p,img)
+to referrence class the syntax is period(.)
+
+Flot.html
+
+<h1>Float</h1>
+    <img src="img1.jpg" width="125px" alt="movie image" />
+    <img src="img2.jpg" width="125px" alt="movie image" />
+    <img src="img3.jpg" width="125px" alt="movie image" />
+
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, aut.
+      Officia nisi minima totam, saepe corrupti consequuntur odio, delectus
+      molestias voluptatibus, repudiandae quos perferendis quidem incidunt
+      voluptas similique tempore asperiores.
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+      quibusdam aut eius omnis incidunt. Nulla fuga incidunt iusto velit eius
+      reprehenderit esse facilis quisquam, ex dolor perspiciatis molestias,
+      doloribus labore?
+    </p>
+    Matrix combines the following
+    scalex (), 
+    skewy(),
+    skewX(),
+    scaleY(),
+    translateX(),
+    translateY(),
+

@@ -1,27 +1,25 @@
 import React, { useState } from 'react'
 
 const App = () => {
-  const [details,setDetails]= useState({counter:0,name:""})
+  const [counter, setCounter] = useState(10);
+  function add() {
+    return setCounter(counter +1);
+  }
 
-  
-  function increaseCounter() {
-
-  setDetails((prev)=> ({
-    ...prev,
-    counter:prev.counter+1,
-  }));
-
-}
-
+  function sub() {
+    return setCounter(counter -1);
+  }
+  function mul() {
+return setCounter(counter *10)
+  }
   return (
     <div>
-      <input type="text" onChange={e => setName(e.target.value)} />
-      <h1>{details.name} has click:{details.counter} times!</h1> 
-      <button onClick={increaseCounter}>increase</button>
+      <button onClick={add}>+</button>
+      <h1>count={counter}</h1>
+      <button onClick={sub}>-</button>
+      <button onClick={mul}>x</button>
     </div>
   )
-  
-
 }
 
 export default App

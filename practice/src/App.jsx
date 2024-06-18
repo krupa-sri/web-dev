@@ -1,14 +1,15 @@
-import React from 'react'
-import UseEffect from './UseEffect'
-import UseRef from './UseRef'
-import UseMemo from './UseMemo'
+import React from "react";
+import UseEffect from "./UseEffect";
+import UseRef from "./UseRef";
+import UseMemo from "./UseMemo";
+import UseCallback from "./UseCallback";
 
 const App = () => {
   return (
     <>
-    <UseMemo/>
+      <UseCallback />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
